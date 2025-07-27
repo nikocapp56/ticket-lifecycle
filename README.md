@@ -2,40 +2,27 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/> </p>
 
 <h1>osTicket - Ticket Lifecycle</h1>
-This guide demonstrates how to install and configure the open-source ticketing system osTicket (v1.15.8) on a Windows machine using IIS, PHP, and MySQL.
+This guide outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket. This setup provides a clear view of how a real-life help desk operates and how different roles interact with tickets based on their respective responsibilities.
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
+- osTicket
 
 <h2>Prerequisites</h2>
-Before starting, ensure the following environment is in place:
 
-  - Azure Resource Group (example: osTicketRG)
-  - Azure Virtual Machine (example: osticketVM)
-    - Operating System: Windows 10 Pro, version 22H2 - x64 Gen2
-    - Size: 4 vCPUs
-  - Remote Desktop Access enabled (for connecting to the VM)
-  - [osTicket Installation Files](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
+- [osTicket - Prerequisites and Installation](https://github.com/nikocapp56/osticket-prereqs)
+- [osTicket - Post-Installation Configuration](https://github.com/nikocapp56/post-install-config)
 
-<h2>Installation Steps</h2>
+<h2>Ticket Lifecycle Steps</h2>
 
-<h3>0️⃣ Overview of osTicket Installation </h3>
+<h3>0️⃣ Overview of osTicket Ticket Lifecycle </h3>
 
-- Enable Internet Information Services
-- Install Web Platform Installer
-- Install MySQL and Set Up Useranme and Password
-- Install C++ Redistributable
-- Congure Permissions and Install osTicket
+Admin/Analyst Login URL: http://localhost/osTicket/scp/login.php 
 
-🔐 Login URLs
-Admin/Analyst Login Page:
-http://localhost/osTicket/scp/login.php
-
-End User Ticket Submission Page:
-http://localhost/osTicket
+End User Ticket Submission URL: http://localhost/osTicket
 
 📝 Ticketing Workflow Overview
 Create tickets as an end-user.
