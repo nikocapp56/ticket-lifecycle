@@ -25,7 +25,7 @@ This guide outlines the lifecycle of a ticket from intake to resolution within t
 - Work tickets to resolution and review system behavior.
 
 
-<h3> Ticket Scenario 1️⃣: Mobile/Online Banking System Down </h3>
+<h3>1️⃣ Ticket Scenario: Mobile/Online Banking System Down </h3>
 
 Go to the End User Ticket Submission URL: http://localhost/osTicket
 
@@ -76,7 +76,7 @@ Set the Status to Resolved.
 <img width="574" alt="11" src="https://github.com/user-attachments/assets/3d899adc-e9dc-425e-ac3f-ac58dc31abab" />
 
 
-<h3> Ticket Scenario 2️⃣: Accounting department needs Adobe upgrade (broken) </h3>
+<h3>2️⃣ Ticket Scenario: Accounting department needs Adobe upgrade (broken) </h3>
 
 Go to the End User Ticket Submission URL: http://localhost/osTicket
 
@@ -118,7 +118,7 @@ Set the Status to Resolved.
 
 <img width="800" alt="19" src="https://github.com/user-attachments/assets/c37ecbc3-0a01-426c-ad44-a9a15124029f" />
 
-<h3> Ticket Scenario 3️⃣: CFO’s Laptop Not Turning On </h3>
+<h3>3️⃣ Ticket Scenario: CFO’s Laptop Not Turning On </h3>
 
 Go to the End User Ticket Submission URL: http://localhost/osTicket
 
