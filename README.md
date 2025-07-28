@@ -1,4 +1,3 @@
-<p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/> </p>
 
 <h1>osTicket - Ticket Lifecycle</h1>
@@ -18,46 +17,51 @@ This guide outlines the lifecycle of a ticket from intake to resolution within t
 
 <h2>Ticket Lifecycle Steps</h2>
 
-<h3>0️⃣ Overview of osTicket Ticket Lifecycle </h3>
+<h3> Overview of Ticket Workflow and Role Interaction </h3>
 
-Admin/Analyst Login URL: http://localhost/osTicket/scp/login.php 
+- Create tickets as an end-user.
+- Respond to tickets as a Help Desk Agent.
+- Set priorities, assign SLAs, and observe ticket visibility limitations.
+- Work tickets to resolution and review system behavior.
 
-End User Ticket Submission URL: http://localhost/osTicket
 
-📝 Ticketing Workflow Overview
-Create tickets as an end-user.
+<h3> Ticket Scenario: Mobile/Online Banking System Down </h3>
 
-Respond to tickets as a Help Desk Agent.
+Go to the End User Ticket Submission URL: http://localhost/osTicket
+
+<img width="800" alt="1" src="https://github.com/user-attachments/assets/9467238b-a019-4b61-b1c0-3e18b6319aaf" />
+
+Create a ticket as end-user, Karen.
+
+<img width="1004" height="1242" alt="2" src="https://github.com/user-attachments/assets/db3649f5-9b0c-4be3-8b21-f4b47fb83006" />
+</p>
+Go to the Admin Login URL: http://localhost/osTicket/scp/login.php
+</p>
+Log in as Agent John.
+
+<img width="800" alt="3" src="https://github.com/user-attachments/assets/dab71f0d-40b7-4101-bd40-78a475aad774" />
+<img width="800" alt="4" src="https://github.com/user-attachments/assets/25faebb5-0dae-43eb-a67f-70a2724d5353" />
+
+Open the ticket and figure out how severe the issue is, then route it to the right team.
+
+<img width="800" alt="5" src="https://github.com/user-attachments/assets/823eb4e8-f001-4323-9125-e9d542e0392c" />
+
+Since the ticket is banking-related, assign it to the Online Banking team. I’m also updating the SLA plan to Sev-A since this has a big impact on the business. I changed the help topic to 'Business Critical Outage' and added some notes to help the Online Banking team handle it better.
+
+<img width="800" alt="6" src="https://github.com/user-attachments/assets/ddef4ce3-f128-4129-a403-6db91cf43b28" />
+<img width="800"  alt="7" src="https://github.com/user-attachments/assets/6cd40287-e2a0-41dc-b988-c2f35fdde951" />
 
 Set priorities, assign SLAs, and observe ticket visibility limitations.
 
 Work tickets to resolution and review system behavior.
-
-🔧 Initial Setup
-✅ Change:
-SysAdmins Department → Make it a Top-Level Department
-
-❌ Delete:
-Maintenance Department → Delete completely (do not archive)
-
-🧪 Ticket Scenarios
-📌 Ticket 1: Mobile/Online Banking System Down
-Create as: End-user
-Subject: Entire mobile/online banking system is down
-
 Handle as: Agent John
-
 Observe ticket properties: Priority, Department, SLA, Assigned To
-
 Set:
-
 SLA: Sev-A (1 hour, 24/7)
-
 Department: Online Banking
-
 Try to view/edit again as John. Can you?
-
 Resolve as: Agent Jane
+
 
 📌 Ticket 2: Adobe Upgrade Needed
 Create as: End-user
@@ -138,7 +142,6 @@ Re-do the lab multiple times until it becomes second nature.
 Mastery builds technical intuition—a core part of your technical skills pillar.
 
 <h3>1️⃣ Install/Enable Internet Information Services (IIS) with CGI </h3>
-
 
 
 <h3> 2️⃣ Install PHP Manager for IIS </h3>
