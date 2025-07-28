@@ -1,7 +1,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/> </p>
 
 <h1>osTicket - Ticket Lifecycle</h1>
-This guide outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket. This setup provides a clear view of how a real-life help desk operates and how different roles interact with tickets based on their respective responsibilities.
+This guide outlines the lifecycle of tickets from intake to resolution within the open-source help desk ticketing system osTicket. This setup provides a clear view of how a real-life help desk operates and how different roles interact with tickets based on their respective responsibilities.
 
 <h2>Environments and Technologies Used</h2>
 
