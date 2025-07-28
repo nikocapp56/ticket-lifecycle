@@ -38,29 +38,43 @@ Create a ticket as end-user, Karen.
 Go to the Admin Login URL: http://localhost/osTicket/scp/login.php
 </p>
 Log in as Agent John.
+</p>
 
 <img width="800" alt="3" src="https://github.com/user-attachments/assets/dab71f0d-40b7-4101-bd40-78a475aad774" />
 <img width="800" alt="4" src="https://github.com/user-attachments/assets/25faebb5-0dae-43eb-a67f-70a2724d5353" />
 
-Open the ticket and figure out how severe the issue is, then route it to the right team.
+Open the ticket.
 
 <img width="800" alt="5" src="https://github.com/user-attachments/assets/823eb4e8-f001-4323-9125-e9d542e0392c" />
 
-Since the ticket is banking-related, assign it to the Online Banking team. I’m also updating the SLA plan to Sev-A since this has a big impact on the business. I changed the help topic to 'Business Critical Outage' and added some notes to help the Online Banking team handle it better.
+Figure out how severe the issue is, then route it to the right team. Since the ticket is banking related, assign it to the Online Banking Team. 
+
+<img width="800" alt="8" src="https://github.com/user-attachments/assets/deb5d8b7-6bbe-4869-ac1b-27e29a0f4cf6" />
+
+Update the SLA Plan to Sev-A since this has a big impact on the business. 
 
 <img width="800" alt="6" src="https://github.com/user-attachments/assets/ddef4ce3-f128-4129-a403-6db91cf43b28" />
+
+Change the Help Topic to Business Critical Outage.
+
 <img width="800"  alt="7" src="https://github.com/user-attachments/assets/6cd40287-e2a0-41dc-b988-c2f35fdde951" />
 
-Set priorities, assign SLAs, and observe ticket visibility limitations.
+Log in as Jane since she is part of the Online Banking Team.
 
-Work tickets to resolution and review system behavior.
-Handle as: Agent John
-Observe ticket properties: Priority, Department, SLA, Assigned To
-Set:
-SLA: Sev-A (1 hour, 24/7)
-Department: Online Banking
-Try to view/edit again as John. Can you?
-Resolve as: Agent Jane
+<img width="800" alt="8 5" src="https://github.com/user-attachments/assets/79b15abf-897c-443b-b418-2931b14ab4f7" />
+
+Reply to the end-user with any updates.
+
+<img width="800" alt="9" src="https://github.com/user-attachments/assets/5fb38508-bb0a-40f3-b042-d58866edb995" />
+
+Once the issue is resolved or the root cause is identified, respond to the end-user with another update.
+
+<img width="800" alt="10" src="https://github.com/user-attachments/assets/569f5ee6-386f-439c-b452-7e09f4345b98" />
+
+Set the Status to Resolved.
+
+<img width="574" alt="11" src="https://github.com/user-attachments/assets/3d899adc-e9dc-425e-ac3f-ac58dc31abab" />
+
 
 
 📌 Ticket 2: Adobe Upgrade Needed
