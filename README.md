@@ -63,11 +63,11 @@ Log in as Jane since she is part of the Online Banking Team.
 
 <img width="800" alt="8 5" src="https://github.com/user-attachments/assets/79b15abf-897c-443b-b418-2931b14ab4f7" />
 
-Reply to the end-user with any updates.
+Reply with any updates.
 
 <img width="800" alt="9" src="https://github.com/user-attachments/assets/5fb38508-bb0a-40f3-b042-d58866edb995" />
 
-Once the issue is resolved or the root cause is identified, respond to the end-user with another update.
+Once the issue is resolved or the root cause is identified, respond with another update.
 
 <img width="800" alt="10" src="https://github.com/user-attachments/assets/569f5ee6-386f-439c-b452-7e09f4345b98" />
 
@@ -106,11 +106,11 @@ Update the SLA Plan to Sev-C since this has less impact.
 
 <img width="800" alt="15" src="https://github.com/user-attachments/assets/c30e4d5f-090f-41cc-827b-f5abfd9996b6" />
 
-Reply to the end-user with any updates.
+Reply with any updates.
 
 <img width="800" alt="17" src="https://github.com/user-attachments/assets/6cc8a5c1-47fe-4667-8114-c0499db685ef" />
 
-Once the issue is resolved or the root cause is identified, respond to the end-user with another update.
+Once the issue is resolved or the root cause is identified, respond with another update.
 
 <img width="800" alt="18" src="https://github.com/user-attachments/assets/e3f44f10-742c-40e1-a957-1ac97ec01f73" />
 
@@ -118,109 +118,45 @@ Set the Status to Resolved.
 
 <img width="800" alt="19" src="https://github.com/user-attachments/assets/c37ecbc3-0a01-426c-ad44-a9a15124029f" />
 
-<h3> Ticket Scenario 3️⃣: Mobile/Online Banking System Down </h3>
+<h3> Ticket Scenario 3️⃣: CFO’s Laptop Not Turning On </h3>
 
-📌 Ticket 3: CFO’s Laptop Not Turning On
-Create as: End-user
-Subject: CFO’s laptop will no longer turn on
+Go to the End User Ticket Submission URL: http://localhost/osTicket
 
-Handle as: Agent John
+<img width="800" alt="1" src="https://github.com/user-attachments/assets/9467238b-a019-4b61-b1c0-3e18b6319aaf" />
 
-Observe ticket properties
+Create a ticket as end-user, Karen.
 
-Set:
+<img width="800" alt="20" src="https://github.com/user-attachments/assets/cfdb0e3f-d523-46fd-9179-4e3c31d1e435" />
 
-SLA: Sev-B (4 hours, 24/7)
+</p>
+Go to the Admin Login URL: http://localhost/osTicket/scp/login.php
+</p>
+Log in as Agent John.
+</p>
 
-Department: Support
+<img width="800" alt="3" src="https://github.com/user-attachments/assets/dab71f0d-40b7-4101-bd40-78a475aad774" />
+<img width="800" alt="21" src="https://github.com/user-attachments/assets/175d33e4-a2c0-4ed2-ab30-85143fe82567" />
 
-Resolve the ticket as John
+Open the ticket.
 
-🚨 Escalation Behavior
-Set Sev-A (SysAdmins ticket) last.
+<img width="800" alt="22" src="https://github.com/user-attachments/assets/b3da3dcf-98a4-4ad7-8940-15d4cc036fa9" />
 
-Ticket becomes inaccessible to agent without permission.
+Set the Priority to Emergency.
 
-Switch to Admin Panel → Assign View access to SysAdmins role.
+<img width="800" alt="23" src="https://github.com/user-attachments/assets/f766beac-8db0-49f4-9a99-9bea216fa8ec" />
 
-Return to Agent Panel → Observe escalated ticket (now viewable, but not editable).
+Figure out how severe the issue is, then route it to the right team. In this case, I can assign this ticket to myself, John.
 
-📬 Ticketing System Behavior
-Most ticketing systems, including osTicket, support email notifications:
+<img width="800" alt="24" src="https://github.com/user-attachments/assets/3139a05e-0f95-4e05-bbdb-b5db3e7b73bf" />
 
-When a ticket is created or updated, the end user receives an email copy.
+Update the SLA Plan to Sev-B since an important user is affected, but it is not a company-wide issue.
 
-End users can reply via email, and their response gets attached to the ticket.
+<img width="800" alt="25" src="https://github.com/user-attachments/assets/6021f6b0-e754-4cb2-8120-448d12ef42bf" />
 
-🧑‍💻 Real-World Ticket Intake
-Tickets can come from:
+Once the issue is resolved or the root cause is identified, reply with an update.
 
-Web forms
+<img width="800" alt="26" src="https://github.com/user-attachments/assets/5af71663-d5a7-4c7e-81ba-3b5ed63ec669" />
 
-Email
+Set the Status to Resolved.
 
-Phone calls
-
-Chat apps
-
-In-person requests
-
-💡 Even if you fix something on the spot, create a ticket. This helps with:
-
-Tracking
-
-Accountability
-
-Metrics reporting
-
-SLA compliance
-
-🔁 Final Thoughts and Practice
-Explore email configuration for better ticketing workflow.
-
-Re-do the lab multiple times until it becomes second nature.
-
-Mastery builds technical intuition—a core part of your technical skills pillar.
-
-<h3>1️⃣ Install/Enable Internet Information Services (IIS) with CGI </h3>
-
-
-<h3> 2️⃣ Install PHP Manager for IIS </h3>
-
-
-
-<h3> 3️⃣ Install IIS Rewrite Module </h3>
-
-
-
-<h3> 4️⃣ Setup PHP </h3>
-
-
-
-<h3> 5️⃣ Install additional prerequisites within osTicket installation Files </h3>
-
-
-
-<h3> 6️⃣ Configure PHP in IIS </h3>
-
-
-
-<h3> 7️⃣ Install osTicket </h3>
-
-
-
-<h3> 8️⃣ Enable required PHP extensions </h3>
-
-
-
-<h3> 9️⃣ Configure osTicket </h3>
-
-
-
-<h3> 🔟 Setup the database </h3>
-
-
-
-<h3> 1️⃣1️⃣ Finalize and cleanup </h3>
-
-
+<img width="800" alt="27" src="https://github.com/user-attachments/assets/d399f163-c88d-4972-a42f-799a6b4af163" />
